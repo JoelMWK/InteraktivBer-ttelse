@@ -275,9 +275,14 @@ else if(directions == "right"){
         Console.WriteLine("Good choice");
         Console.WriteLine("Now choose left or right");
         if(directions == "left"){
-        
+            Console.WriteLine("By going to the dumpster you have gotten extremly unlucky");
+            Console.WriteLine("By going left you fall down a trap");
+            Console.WriteLine("You break your legs");
+            alive = false;
         }
         else if(directions == "right"){
+            Console.WriteLine("Wrong choice");
+            alive = false;
 
         }
         else{
